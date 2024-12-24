@@ -1,0 +1,11 @@
+conda create -p venv python==3.10 -y
+winget install -e --id Astronomer.Astro
+F:\newproj\astro_airflow>conda env list
+F:\newproj\astro_airflow\venv
+astro dev init
+astro dev start
+go to the webserver, if not automatticaly prompted
+setup connections in the admin hub
+
+usenrame and pass is admin admin
+#if got any probs with postgressql, then go to task magnaer, nd remove that service of it
