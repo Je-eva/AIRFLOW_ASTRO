@@ -30,7 +30,10 @@ The pipeline extracts weather data for multiple locations, processes it, and sto
 1. **Extract**: Using the `HttpHook` from Airflow to send a request to the Open-Meteo API for weather data for each location.
 2. **Transform**: The raw data is then processed and transformed to extract only relevant fields like temperature, wind speed, and weather code.
 3. **Load**: The transformed data is then inserted into a PostgreSQL database table. The table is created if it doesn't exist, and new records are added daily.
+My DAG Apllication which is running locally
 
-My ![Database](image_2024-12-25_001340765.png) after a some running of DAG
+
+My Database after a some running of DAG
+![Database](image_2024-12-25_001340765.png) 
 
 For more [Refer to ETLWeather](https://github.com/krishnaik06/ETLWeather)
