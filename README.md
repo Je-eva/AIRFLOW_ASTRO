@@ -31,8 +31,9 @@ The pipeline extracts weather data for multiple locations, processes it, and sto
 2. **Transform**: The raw data is then processed and transformed to extract only relevant fields like temperature, wind speed, and weather code.
 3. **Load**: The transformed data is then inserted into a PostgreSQL database table. The table is created if it doesn't exist, and new records are added daily.
 My DAG Apllication which is running locally
+![Database](image_2024-12-25_001630789.png)
 
-
+ 
 My Database after a some running of DAG
 ![Database](image_2024-12-25_001340765.png) 
 
