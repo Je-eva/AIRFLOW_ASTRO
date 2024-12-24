@@ -31,6 +31,9 @@ The pipeline extracts weather data for multiple locations, processes it, and sto
 2. **Transform**: The raw data is then processed and transformed to extract only relevant fields like temperature, wind speed, and weather code.
 3. **Load**: The transformed data is then inserted into a PostgreSQL database table. The table is created if it doesn't exist, and new records are added daily.
 
+My Database after a some running of DAG
+![Weather Image](weather_image.jpg)
+
 
 
 For more [Refer to ETLWeather](https://github.com/krishnaik06/ETLWeather)
